@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mission & Vision - Blue Life Water Refilling Station</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="image/droplogobg.png" alt="Blue Life Logo" class="logo" />
+      <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="mission.html" class="active">Mission & Vision</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="designer.html">Web Designer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mission & Vision Section -->
+  <section class="mission-vision-section">
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p>To provide clean, safe, and affordable drinking water through excellent service and modern purification technology, ensuring the health and satisfaction of our customers and the communities we serve.</p>
+
+      <h2>Our Vision</h2>
+      <p>To be a trusted and leading provider of purified drinking water in the region, recognized for our commitment to quality, sustainability, and customer well-being.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2018 Blue Life Water Refilling Station. All rights reserved.</p>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    function toggleMenu() {
+      const navList = document.getElementById('nav-list');
+      navList.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

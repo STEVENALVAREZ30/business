@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Life Water Refilling Station - Reviews</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- header -->
+  <header>
+    <div class="container">
+      <img src="image/droplogobg.png" alt="Blue Life Logo" class="logo" />
+      <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="mission.html">Mission & Vision</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="designer.html">Web Designer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- reviews section -->
+  <section class="reviews-section">
+    <div class="container">
+      <h2>What Our Customers Say</h2>
+      <p class="section-intro">Read the experiences of our satisfied customers!</p>
+
+      <div class="reviews-grid">
+        <!-- Review 1 -->
+        <div class="review-box">
+          <p>"Fast delivery and the water quality is always excellent. Highly recommended!"</p>
+          <h4>- Maria G.</h4>
+        </div>
+        <!-- Review 2 -->
+        <div class="review-box">
+          <p>"I’ve been using Blue Life for over a year now. Clean, crisp water every time."</p>
+          <h4>- James T.</h4>
+        </div>
+        <!-- Review 3 -->
+        <div class="review-box">
+          <p>"Affordable and reliable. Their customer service is very responsive too."</p>
+          <h4>- Aileen R.</h4>
+        </div>
+        <!-- Review 4 -->
+        <div class="review-box">
+          <p>"Love the convenience of home delivery. I never run out of drinking water."</p>
+          <h4>- Daniel P.</h4>
+        </div>
+        <!-- Review 5 -->
+        <div class="review-box">
+          <p>"The slim gallon option is perfect for my small apartment. Thank you Blue Life!"</p>
+          <h4>- Kristine M.</h4>
+        </div>
+        <!-- Review 6 -->
+        <div class="review-box">
+          <p>"Great customer support and fast responses. I always feel taken care of."</p>
+          <h4>- Carlos W.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2018 Blue Life Water Refilling Station. All rights reserved.</p>
+  </footer>
+
+  <!-- script -->
+  <script>
+    function toggleMenu() {
+      const navList = document.getElementById('nav-list');
+      navList.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - Blue Life Water Refilling Station</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="image/droplogobg.png" alt="Blue Life Logo" class="logo" />
+      <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="mission.html">Mission & Vision</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="designer.html">Web Designer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section">
+    <div class="container">
+      <h2>Our Products</h2>
+      <p class="section-intro">
+        Explore our range of bottled water products designed for your convenience and health.
+      </p>
+    
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="image/roundgallon.avif" alt="Purified Round Gallon" />
+          <div class="gallery-description">
+            <h3>Round Gallon</h3>
+            <p>15 Liters (Approx. 5kg)<br>Perfect for regular family use and office hydration needs.</p>
+          </div>
+        </div>
+    
+        <div class="gallery-item">
+          <img src="image/slimgallon.jpg" alt="Slim Gallon Bottle" />
+          <div class="gallery-description">
+            <h3>Slim Gallon</h3>
+            <p>15 Liters (Lightweight & Space-saving)<br>Ideal for compact storage and single-user households.</p>
+          </div>
+        </div>
+    
+        <div class="gallery-item">
+          <img src="image/waterbottles.png" alt="Bottled Water Collection" />
+          <div class="gallery-description">
+            <h3>Mineral Water Bottles</h3>
+            <p>350ml to 1.5L (Variety Sizes)<br>Convenient for on-the-go hydration in different sizes.</p>
+          </div>
+        </div>
+    
+        <div class="gallery-item">
+          <img src="image/littersgallon.jpg" alt="Delivery-Ready Gallons" />
+          <div class="gallery-description">
+            <h3>Delivered Gallons</h3>
+            <p>6.5 Liters (Approx. 6.5kg)<br>Ready for doorstep delivery — safe, sealed, and fresh.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2018 Blue Life Water Refilling Station. All rights reserved.</p>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    function toggleMenu() {
+      const navList = document.getElementById('nav-list');
+      navList.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQs - Blue Life Water Refilling Station</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <img src="image/droplogobg.png" alt="Blue Life Logo" class="logo" />
+      <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="mission.html">Mission & Vision</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="designer.html">Web Designer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- FAQs Section -->
+  <section class="faqs-section">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3 class="faq-question">What types of water do you offer?</h3>
+        <p class="faq-answer">We offer purified drinking water and mineral water, both delivered fresh to your doorstep.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">How can I place an order?</h3>
+        <p class="faq-answer">You can place an order directly on our website or by calling our customer service.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">What is the delivery charge?</h3>
+        <p class="faq-answer">Delivery charges vary depending on your location. You can check delivery charges at checkout.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Is there a minimum order?</h3>
+        <p class="faq-answer">Yes, the minimum order is 1 gallon of water for delivery services.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Do you offer subscription plans?</h3>
+        <p class="faq-answer">Yes, we offer flexible subscription plans for regular deliveries. Contact us for more details.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2018 Blue Life Water Refilling Station. All rights reserved.</p>
+  </footer>
+
+  <!-- script -->
+  <script>
+    function toggleMenu() {
+      const navList = document.getElementById('nav-list');
+      navList.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

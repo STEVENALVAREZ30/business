@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Life Blog - Company Updates</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <img src="image/droplogobg.png" alt="Blue Life Logo" class="logo" />
+      <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="mission.html">Mission & Vision</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="designer.html">Web Designer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Blog Section -->
+  <section class="blog-section">
+    <div class="container">
+      <h2>Latest Company Updates</h2>
+      <p class="blog-intro">Stay informed with our latest news, promotions, and updates.</p>
+
+      <div class="blog-grid">
+        <article class="blog-post">
+          <h3>💧 New Branch Opening in May!</h3>
+          <p class="date">Posted: May 1, 2025</p>
+          <p>We are excited to announce the opening of our new branch in Barangay San Isidro! Clean and safe drinking water is now closer to more households. Visit us for opening promos and discounts!</p>
+        </article>
+
+        <article class="blog-post">
+          <h3>🚚 Free Delivery Promo Extended!</h3>
+          <p class="date">Posted: April 22, 2025</p>
+          <p>Due to popular demand, our free delivery promo has been extended until the end of May. Order 3 or more gallons and enjoy free delivery within city limits!</p>
+        </article>
+
+        <article class="blog-post">
+          <h3>♻️ We Now Accept Empty Bottles for Recycling</h3>
+          <p class="date">Posted: April 10, 2025</p>
+          <p>Help protect the environment! Bring back your empty water bottles and we’ll recycle them responsibly. Get ₱5 off your next refill for each returned container.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2018 Blue Life Water Refilling Station. All rights reserved.</p>
+  </footer>
+
+  <!-- script -->
+  <script>
+    function toggleMenu() {
+      const navList = document.getElementById('nav-list');
+      navList.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

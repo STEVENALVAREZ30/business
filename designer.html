@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Designer Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="image/droplogobg.png" alt="Blue Life Logo" class="logo" />
+      <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="mission.html">Mission & Vision</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="designer.html">Web Designer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Web Designer Profile Section -->
+  <section class="designer-profile-section">
+    <div class="container">
+      <h2>Web Designer Profile</h2>
+      <p class="section-intro">Meet the creative mind behind the design of this website.</p>
+  
+      <div class="designer-box">
+        <div class="designer-image">
+          <img src="image/mypic.jpg" alt="Steven John Alvarez" class="profile-image" />
+        </div>
+        <h3>👨‍💻 Steven John Alvarez</h3>
+        <p>I am a passionate web designer with a growing interest in creating user-friendly, visually appealing websites. My goal is to provide an enjoyable and intuitive experience for all users while delivering a product that meets both business and aesthetic needs.</p>
+      </div>
+  
+      <!-- New Experience Section -->
+      <div class="designer-box">
+        <h3>💼 My Experience</h3>
+        <p>I’ve begun working on a few web design projects, mainly focusing on personal websites and simple landing pages. I’m still learning, but I have gained experience using HTML and CSS to build basic and user-friendly designs.</p>
+      </div>
+  
+      <!-- New Reflection Section -->
+      <div class="designer-box">
+        <h3>📝 Reflection</h3>
+        <p>Web design has been an exciting and ongoing learning experience for me. I’ve enjoyed exploring different aspects of website creation, from planning and designing to coding and refining. While I'm still in the early stages, I find it fulfilling to see my designs come together and become functional for users. The journey of continuous improvement excites me, and I’m eager to take on new challenges and grow my skills as a web designer.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2018 Blue Life Water Refilling Station. All rights reserved.</p>
+  </footer>
+
+  <!-- Script for Menu Toggle -->
+  <script>
+    function toggleMenu() {
+      const navList = document.getElementById('nav-list');
+      navList.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

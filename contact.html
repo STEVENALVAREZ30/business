@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Blue life Water Refilling Station</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="image/droplogobg.png" alt="Blue Life Logo" class="logo" />
+      <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="mission.html">Mission & Vision</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="designer.html">Web Designer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-delivery">
+      <div class="form-container">
+        <h2>Order Delivery</h2>
+        <p>Select your water product and place your order.</p>
+        
+        <form action="#" method="post">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+    
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required />
+    
+          <label for="address">Delivery Address</label>
+          <textarea id="address" name="address" rows="3" required></textarea>
+    
+          <label for="product">Select Product</label>
+          <select id="product" name="product" required>
+            <option value="">-- Choose a product --</option>
+            <option value="5gallon">5 Gallon (₱40)</option>
+            <option value="3gallon">3 Gallon (₱30)</option>
+            <option value="500ml">500ml Bottle (₱10)</option>
+            <option value="350ml">350ml Bottle (₱8)</option>
+          </select>
+    
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity" name="quantity" min="1" required />
+    
+          <button type="button" class="btn" onclick="window.location.href='success.html'">Submit Order</button>
+        </form>
+      </div>
+    </section>
+    <section class="contact-info">
+      <div class="form-container">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> bluelife@gmail.com</p>
+        <p><strong>Phone:</strong> 0917-123-4567</p>
+        <p><strong>Address:</strong> #79 Purok 4 Pulung Maragul Angeles City, Pampanga, Philippines</p>
+      </div>
+    </section>
+    </section>
+     
+  </main>
+
+  <footer>
+    <p>&copy; 2018 YourCompany. All rights reserved.</p>
+  </footer>
+  <script>
+    function toggleMenu() {
+      const navList = document.getElementById('nav-list');
+      navList.classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>
